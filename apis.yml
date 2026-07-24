@@ -1,9 +1,33 @@
 aid: beautifulai
 name: beautiful.ai
-description: 'beautiful.ai is a company surfaced as a portfolio company of general-catalyst, trinity-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Beautiful.ai is an AI-powered presentation software platform that helps
+  individuals and teams create professional, on-brand presentations quickly.
+  Its "Smart Slides" engine auto-aligns layouts across 300+ customizable
+  templates, adjusting spacing, alignment, and hierarchy automatically, while a
+  "Create with AI" workflow turns prompts, outlines, or documents into polished
+  decks. The platform adds theme and brand controls (locked colors, fonts,
+  logos, footers), data-linked charts and visualizations, slide animations and
+  voice-over narration, viewer analytics, and secure sharing. It integrates with
+  Slack, PowerPoint (add-in), Webex, and a custom ChatGPT GPT. Beautiful.ai is
+  backed by General Catalyst and Trinity Ventures and serves freelancers,
+  consultants, agencies, SMBs, and enterprises for sales, marketing, pitch,
+  reporting, and training use cases. The company does not currently publish a
+  public developer API, SDK, or developer portal; this profile captures its
+  company identity, security/compliance posture, and domain security.
 url: https://raw.githubusercontent.com/api-evangelist/beautifulai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/59deb588800ae30001ec19c9/679345319c7f2f3d2301228b_Open%20Graph_final.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +37,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Ai
+- AI
+- Presentations
+- Slides
+- Design
+- Productivity
+- Collaboration
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +56,35 @@ maintainers:
 common:
 - type: Website
   url: https://www.beautiful.ai
+- type: Support
+  url: https://support.beautiful.ai
+  name: Help Center
+- type: Blog
+  url: https://www.beautiful.ai/blog
+- type: Pricing
+  url: https://www.beautiful.ai/pricing
+- type: SignUp
+  url: https://www.beautiful.ai/onboarding
+- type: Login
+  url: https://www.beautiful.ai/login
+- type: TermsOfService
+  url: https://www.beautiful.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.beautiful.ai/privacy-policy
+- type: Conformance
+  url: conformance/beautifulai-conformance.yml
+- type: Compliance
+  url: https://www.beautiful.ai/security
+- type: TrustCenter
+  url: security/beautifulai-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/beautifulai-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.beautiful.ai/security
+- type: DomainSecurity
+  url: security/beautifulai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

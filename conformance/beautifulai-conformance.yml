@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.beautiful.ai/security
+docs: https://www.beautiful.ai/security
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: Annual SOC 2 Type II third-party audit; certificate downloadable via Conveyor trust profile
+- id: gdpr
+  conforms: true
+  evidence: EU GDPR compliance stated on security page
+- id: ccpa
+  conforms: true
+  evidence: California CCPA compliance stated on security page
+- id: pci-dss
+  conforms: true
+  evidence: PCI DSS compliance stated on security page
+- id: saml-sso
+  conforms: true
+  evidence: SAML 2.0 SSO, Google OAuth, and SCIM provisioning offered for enterprise
