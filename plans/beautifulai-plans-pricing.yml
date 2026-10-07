@@ -1,0 +1,53 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.beautiful.ai/pricing
+sources:
+- https://www.beautiful.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Consumer/business presentation SaaS pricing page; no developer API pricing. Includes 14-day free
+  trial and a free year for students.
+plan_count: 5
+currency: USD
+plans:
+- name: Pro (Individuals)
+  price_text: $14.50 /mo
+  price: 14.5
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: Billed annually; unlimited AI content generation, 300+ Smart Slide layouts, custom branding
+- name: Teams (annual)
+  price_text: $40 /MO (INCLUDES 3 USERS)
+  price: 40
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: Billed annually; 2-20 members; everything in Pro plus collaboration, analytics
+- name: Teams (monthly)
+  price_text: $50
+  price: 50
+  currency: USD
+  period: month
+  unit: per user
+  included_quota: Billed monthly
+- name: Enterprise
+  price_text: Contact sales for a custom demo & pricing
+  period: none
+  included_quota: Everything in Team plus SSO, SCIM, audit logs, priority support
+- name: Everything in Pro plan (billed monthly)
+  price_text: $45
+  price: 45
+  currency: USD
+  period: month
+  included_quota: For ad hoc projects, cancel anytime
