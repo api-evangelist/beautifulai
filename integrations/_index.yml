@@ -16,3 +16,29 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: beautifulai-monday-com-own
+  label: Monday.com (own)
+  partner: monday-com
+  partner_name: Monday.com (own)
+  category: monday.com app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://monday.com/marketplace/listing/10000014
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: beautifulai-slack-own
+  label: Slack (own)
+  partner: slack
+  partner_name: Slack (own)
+  category: Slack app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://slack.com/marketplace/A0151DE1RKL-beautifulai
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
